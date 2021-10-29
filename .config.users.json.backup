@@ -1,0 +1,16 @@
+{
+    "_": {
+        "editor": {
+            "view": {
+                "view-grid-size": 20,
+                "view-node-status": true,
+                "view-node-show-label": true,
+                "view-show-tips": true,
+                "view-snap-grid": true,
+                "view-show-grid": true,
+                "view-show-welcome-tours": true
+            }
+        },
+        "menu-menu-item-palette": false
+    }
+}
