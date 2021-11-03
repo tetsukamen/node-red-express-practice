@@ -19,6 +19,8 @@ const settings = {
     testValue: "exampleString",
     testPackage: moment,
   },
+  storageModule: require("node-red-contrib-multi-flows-storage"),
+  // storageModule: require("./node-red-contrib-microservice-storage"),
 };
 
 function startNR(settings) {

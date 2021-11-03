@@ -6,7 +6,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "moment": "^2.29.1",
-    "node-red": "^2.1.3"
+    "node-red": "^2.1.3",
+    "node-red-contrib-multi-flows-storage": "^0.1.2"
   },
   "scripts": {
     "start": "node index.js",

@@ -1,0 +1,57 @@
+- id: 18af1902.b21ed7
+  type: tab
+  label: Flow 1
+  disabled: false
+  info: ''
+  flmOrder: 0
+- id: 7b868f38.7d17
+  type: function
+  z: 18af1902.b21ed7
+  name: ''
+  func: |-
+    const inputValue = msg.payload
+    const moment = global.get("testPackage")
+
+    msg.payload = {
+        "originalTimestamp": inputValue,
+        "parsedTimestamp": moment(inputValue)
+    }
+
+    return msg;
+  outputs: 1
+  noerr: 0
+  x: 340
+  'y': 340
+  wires:
+    - - 28ab7e20.979782
+  flmOrder: 1
+- id: ff638668.728788
+  type: inject
+  z: 18af1902.b21ed7
+  name: ''
+  repeat: ''
+  crontab: ''
+  once: false
+  onceDelay: 0.1
+  topic: ''
+  payload: ''
+  payloadType: date
+  x: 140
+  'y': 260
+  wires:
+    - - 7b868f38.7d17
+  flmOrder: 2
+- id: 28ab7e20.979782
+  type: debug
+  z: 18af1902.b21ed7
+  name: ''
+  active: true
+  tosidebar: true
+  console: false
+  tostatus: false
+  complete: 'true'
+  targetType: full
+  x: 610
+  'y': 300
+  wires: []
+  flmOrder: 3
