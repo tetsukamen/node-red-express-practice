@@ -404,5 +404,22 @@
                 "file": "/Users/tetsuyawada/Documents/work/node-red-express/node_modules/@node-red/nodes/core/storage/23-watch.js"
             }
         }
+    },
+    "node-red-contrib-multi-flows-storage": {
+        "name": "node-red-contrib-multi-flows-storage",
+        "version": "0.1.2",
+        "local": false,
+        "user": false,
+        "nodes": {
+            "multi-flows-storage": {
+                "name": "multi-flows-storage",
+                "types": [],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-multi-flows-storage",
+                "file": "/Users/tetsuyawada/Documents/work/node-red-express/node_modules/node-red-contrib-multi-flows-storage/main.js"
+            }
+        }
     }
 }

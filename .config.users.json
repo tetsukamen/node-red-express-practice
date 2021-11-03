@@ -14,6 +14,6 @@
                 "welcome": "2.1.3-git"
             }
         },
-        "menu-menu-item-palette": false
+        "menu-menu-item-palette": true
     }
 }

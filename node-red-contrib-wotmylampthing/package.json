@@ -1,0 +1,33 @@
+{
+    "name": "node-red-contrib-wotmylampthing",
+    "version": "0.0.1",
+    "description": "Node-RED node for wotmylampthing",
+    "main": "node.js",
+    "scripts": {
+        "test": "mocha \"test/**/*_spec.js\""
+    },
+    "node-red": {
+        "nodes": {
+            "wotmylampthing": "node.js"
+        }
+    },
+    "keywords": [
+        "node-red-nodegen"
+    ],
+    "dependencies": {
+        "https-proxy-agent": "^5.0.0",
+        "request": "^2.88.2",
+        "ws": "^7.4.3",
+        "url-template": "^2.0.8",
+        "ajv": "^7.1.1",
+        "coap": "^0.24.0"
+    },
+    "devDependencies": {
+        "node-red": "^1.2.9",
+        "node-red-node-test-helper": "^0.2.7"
+    },
+    "license": "Apache-2.0",
+    "wot": {
+        "id": "urn:dev:ops:32473-WoTLamp-1234"
+    }
+}

@@ -421,5 +421,24 @@
                 "file": "/Users/tetsuyawada/Documents/work/node-red-express/node_modules/node-red-contrib-multi-flows-storage/main.js"
             }
         }
+    },
+    "node-red-contrib-wotmylampthing": {
+        "name": "node-red-contrib-wotmylampthing",
+        "version": "0.0.1",
+        "local": false,
+        "user": false,
+        "nodes": {
+            "wotmylampthing": {
+                "name": "wotmylampthing",
+                "types": [
+                    "wotmylampthing"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-wotmylampthing",
+                "file": "/Users/tetsuyawada/Documents/work/node-red-express/node_modules/node-red-contrib-wotmylampthing/node.js"
+            }
+        }
     }
 }

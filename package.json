@@ -7,11 +7,13 @@
     "express": "^4.17.1",
     "moment": "^2.29.1",
     "node-red": "^2.1.3",
-    "node-red-contrib-multi-flows-storage": "^0.1.2"
+    "node-red-contrib-multi-flows-storage": "^0.1.2",
+    "node-red-nodegen": "^0.1.1"
   },
   "scripts": {
     "start": "node index.js",
-    "start-dev": "DEBUG=node-red-express:* nodemon index.js"
+    "start-dev": "DEBUG=node-red-express:* nodemon index.js",
+    "nodegen": "node-red-nodegen ./sample-lamp.jsonld ."
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
